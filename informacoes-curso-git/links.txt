@@ -1,0 +1,5 @@
+git: https://git-scm.com/
+
+github: https://github.com/
+
+vsc: https://git-scm.com/
