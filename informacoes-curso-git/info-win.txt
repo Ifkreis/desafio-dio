@@ -1,0 +1,65 @@
+CD = ENTRAR OU SAIR DE UMA PASTA
+
+DIR = INFORMAÇÕES DA PASTA
+
+MKDIR = CRIAR PASTA OU ARQUIVO
+
+DEL/RMDIR = REMOVER PASTA OU ARQUIVO
+
+ECHO = IMPRIMI UM TEXTO DIGITADO NO TERMINAL
+
+ECHO (TEXTO) > NOME ARQUIVO/PASTA COLOCA O TEXTO EM UM ARQUIVO OU PASTA
+
+ls -a = mostra arquivos/pastas oculto na pasta
+
+GIT COMANDOS
+
+
+
+ssh-keygen -t ed25519 -C email-do-usuario = criação de uma chave encriptografada
+
+cd /c/Users/escritorio/.ssh/ = pasta onde ficou salvo o arquivo
+
+cat ed25519.pub = visualização do que está escrito no arquivo (caso chave)
+
+ eval $(ssh-agent -s) = criação do arquivo
+
+ ssh-add id_ed25519 = adciona o arquivo para pasta ssh
+
+ git clone (url ssh) = clona o arquivo do github
+
+ git init = criação de repositorios
+
+ $ git config --global user.email "email" = configuração nescessaria para uso no caso para todos os arquivos da maquina que vai trabalhar com o git
+
+git add *
+
+git commit -m "sting (informações obrigatorioas)"
+
+untracked = arquivo que o git ainda não reconheceu
+
+tracked = arquivo que o git ja reconhece
+
+unmodified = arquivo não foi alterado
+
+modified = arquivo foi alterado
+
+staged = arquivo em espera
+
+git status = mostra o estado do arquivo
+
+git config --list = lista detalhes que foi colocado no git
+
+git config --global --unset user.email = faz alteraçãoes no email que foi cadastrado
+
+git config --global --unset user.name = faz alteraçãoes no name que foi cadastrado
+
+git remote origin <link> = cria o nomde de i, repositorio para o link informado no caso github
+
+origin = nome dado ao link
+
+git remote -v = lista a lista de links para qual o repositorio foi enviado
+
+git push origin master = faz o push para o link informado
+
+git pull origin master = identificação de conflito
